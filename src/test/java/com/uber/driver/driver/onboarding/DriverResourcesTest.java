@@ -1,4 +1,4 @@
-package com.uber.driver.driver.onboarding.resources;
+package com.uber.driver.driver.onboarding;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.uber.driver.driver.onboarding.constants.Constants;
@@ -7,6 +7,7 @@ import com.uber.driver.driver.onboarding.entity.DriverDetails;
 import com.uber.driver.driver.onboarding.entity.SecureDriverProfile;
 import com.uber.driver.driver.onboarding.enums.OnboardingProcessTypes;
 import com.uber.driver.driver.onboarding.repository.DriverProfileRepository;
+import com.uber.driver.driver.onboarding.resources.DriverResources;
 import com.uber.driver.driver.onboarding.services.DriverProfileServiceImpl;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
